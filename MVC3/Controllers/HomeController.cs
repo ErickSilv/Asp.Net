@@ -26,5 +26,12 @@ namespace MVC3.Controllers
 
             return View();
         }
+
+        public ActionResult Contato()
+        {
+            ViewBag.Message = "Entre em contato conosco.";
+
+            return View();
+        }
     }
 }
